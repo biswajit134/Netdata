@@ -10,7 +10,7 @@
 ![image_url](https://github.com/biswajit134/Netdata/blob/main/SS/Screenshot%202026-02-23%20150523.png?raw=true)
 
 ![image_url](https://github.com/biswajit134/Netdata/blob/main/SS/Screenshot%202026-02-23%20151034.png?raw=true)
-To connect the docker containers in Netdata Dashboard, we need to create docker-compose.yml file and run it "docker compose up -d":
+To connect the docker containers in Netdata Dashboard, we need to create docker-compose.yml file :
 ```
 version: '3'
 services:
@@ -48,6 +48,10 @@ volumes:
   netdatalib:
   netdatacache:
 ```
+```
+docker compose up -d
+```
+![image_url](https://github.com/biswajit134/Netdata/blob/main/SS/Screenshot%202026-02-23%20152019.png?raw=true)
 
 **Access at http://localhost:19999**
 
@@ -55,13 +59,18 @@ volumes:
 ![image_url](https://github.com/biswajit134/Netdata/blob/main/SS/Screenshot%202026-02-23%20151154.png?raw=true)
 
 **Monitor CPU, memory, disk, Docker containers**
+* CPU Usage
+![image_url](https://github.com/biswajit134/Netdata/blob/main/SS/Screenshot%202026-02-23%20151509.png?raw=true)
 
+* Memory Usage
+![image_url](https://github.com/biswajit134/Netdata/blob/main/SS/Screenshot%202026-02-23%20151536.png?raw=true)
 
-![image_url]()
-![image_url]()
-![image_url]()
-![image_url]()
-![image_url]()
+* Disk Usage
+![image_url](https://github.com/biswajit134/Netdata/blob/main/SS/Screenshot%202026-02-23%20151622.png?raw=true)
+
+* Docker Containers
+![image_url](https://github.com/biswajit134/Netdata/blob/main/SS/Screenshot%202026-02-23%20151434.png?raw=true)
+
 **Explore alerts and chart panels**
 ![image_url]()
 ![image_url]()
