@@ -134,7 +134,8 @@ While it depends on the specific workload, some universal Key Performance Indica
 Netdata provides a highly streamlined "kickstart" script that handles dependencies, package managers, and installation automatically. On most Linux distributions, you can deploy it by running a single command in the terminal:
 
 Bash:
-```wget -O /tmp/netdata-kickstart.sh https://get.netdata.cloud/kickstart.sh && sh /tmp/netdata-kickstart.sh
+```
+wget -O /tmp/netdata-kickstart.sh https://get.netdata.cloud/kickstart.sh && sh /tmp/netdata-kickstart.sh
 ```
 Alternatively, it can be deployed as a Docker container or installed manually via standard package managers (apt, yum, pacman).
 
