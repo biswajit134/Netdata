@@ -1,0 +1,4 @@
+docker pull netdata/netdata:latest
+docker run -d --name nginx -p 80:80 nginx
+docker ps
+docker exec netdata cat /var/lib/netdata/netdata_random_session_id
