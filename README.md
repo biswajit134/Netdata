@@ -10,7 +10,8 @@
 ![image_url](https://github.com/biswajit134/Netdata/blob/main/SS/Screenshot%202026-02-23%20150523.png?raw=true)
 
 ![image_url](https://github.com/biswajit134/Netdata/blob/main/SS/Screenshot%202026-02-23%20151034.png?raw=true)
-* To connect the docker containers in Netdata Dashboard, we need to create docker-compose.yml file and run it """docker compose up -d"""
+* To connect the docker containers in Netdata Dashboard, we need to create docker-compose.yml file and run it "docker compose up -d"
+
 **Access at http://localhost:19999**
 
 ![image_url](https://github.com/biswajit134/Netdata/blob/main/SS/Screenshot%202026-02-23%20152858.png?raw=true)
